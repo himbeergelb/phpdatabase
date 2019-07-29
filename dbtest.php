@@ -19,7 +19,7 @@ if(!$db)
 {
   exit("Verbindungsfehler: ".mysqli_connect_error());
 } else {
-    printf("Connected to the database $dbname<br /><br /><br />");
+    printf("Connected to <ul><li>host: <tt>$dbhost</tt></li><li>port: <tt>$dbport</tt></li><li>database: <tt>$dbname</tt></li></ul>");
 }
 
 $ergebnis = mysqli_query($db, "SELECT * FROM Angestellte");
