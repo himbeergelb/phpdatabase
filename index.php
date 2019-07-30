@@ -1,9 +1,6 @@
 <?php
 
-echo "Welcome to OpenShift Online Developer Preview";
-echo "<br>To test the database, hit the dbtest.php URL";
-
-
-echo "<br><br>This assumes that you have the correct env variables set";
-echo "<BR><BR>The environment variables required are databaseuser, databasepassword, and databasenmae.";
-
+echo "<b>Herzlich willkommen!</b><br /><br />";
+echo "Zum Test der DB-Funktionalität nutzen Sie bitte <a href='dbtest2.php'>dbtest2.php</a><br /><br />";
+echo "Voraussetzung dafür ist, dass die DB-Variablen in der PHP-Umgebung richtig gesetzt sind:";
+echo "<ul><li><tt>databaseuser</tt>,</li><li><tt>databasepassword</tt> and</li><li><tt>databasename</tt>.</li></ul>";
